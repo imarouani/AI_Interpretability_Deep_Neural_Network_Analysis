@@ -4,7 +4,6 @@ import tensorflow as tf
 import tensorflow_datasets as tfds
 
 
-
 def load_cifar10(data_dir, batch_size=32, shuffle_buffer_size=10000, seed=42):
     """Loads and preprocesses cifar10 dataset using tensorflow_datasets.
     
