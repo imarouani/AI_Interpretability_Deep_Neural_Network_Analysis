@@ -13,7 +13,7 @@ A presentation PDF and scripts with visualizations are provided here, the blackb
 
 2. Navigate to the project directory:
    ```bash
-   cd DNNA24_blackbox_lime
+   cd DNNA-Blackbox-Interpretability---LIME
    ```
 
 3. Install dependencies:
