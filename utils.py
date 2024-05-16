@@ -24,6 +24,10 @@ def forward(weights, model, input_data, target_data, loss_fn):
     prediction = model.apply(weights, input_data)
     return loss_fn(prediction, target_data)
 
+def prediction(weights, model, input_data):
+    prediction = model.apply(weights, input_data)
+    return prediction
+
 def validate_cifar(validation_data, model, weights) -> float:
     """Calculate validation loss for model and weights.
     
