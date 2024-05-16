@@ -13,10 +13,6 @@ from utils import validate_cifar, validate_wine
 
 
 def main(args):
-    '''
-    ADD
-    '''
-    
     #random number generator key (seed)
     rng = jax.random.PRNGKey(0)
     
@@ -72,17 +68,8 @@ def main(args):
             print(e)
             raise ImportError(f'The loaded model checkpoints are incorrect, validation error does not match expected value.')
         
-    #LIME
-    None
 
-    #visualize
-    None
-
-    #create folders for image saving
-    # os.makedirs(os.path.join(args.exportdir, 'cifar10'), exist_ok=True)
-    # os.makedirs(os.path.join(args.exportdir, 'wine'), exist_ok=True)
-
-    return None
+    print('Sucessfully set up the data and models, now LIME may be used as in the jupyter notebooks.')
 
 if __name__ == "__main__":
     #parser setup

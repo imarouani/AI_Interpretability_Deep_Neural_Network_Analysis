@@ -32,16 +32,11 @@ A presentation PDF and scripts with visualizations are provided here, the blackb
 
 # About
 ## Repository structure
-ADD
-
-## Theoretical details
-ADD
-
-## Additional
-ADD
+This repository contains two jupyter notebooks, one called segmentation and one called lime.
+The Lime notebook contains the pipelines for image and tabular explanations used, the segmentation one visualizes how slic segmentation works.
 
 # Contact
-Marlon Dammann <mdammann@uni-osnabrueck.de>
+Marlon Dammann <mdammann@uni-osnabrueck.de>  
 Iheb Marouani<imarouani@uni-osnabrueck.de>
 
 # References
