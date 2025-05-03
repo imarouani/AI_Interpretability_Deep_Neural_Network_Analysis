@@ -1,6 +1,6 @@
 # Deep Neural Network Analysis SuSe2024
 ## Blackbox Interpretability - LIME
-This repository is from the 2024 course "Deep Neural Network Analysis" from the university of Osnabrück, held by Lukas Niehaus.
+This repository is for the 2024 Seminar "Deep Neural Network Analysis" from the university of Osnabrück, held by Lukas Niehaus.
 Topic for this group project is methods to interpret blackbox models using LIME.
 A presentation PDF and scripts with visualizations are provided here, the blackbox models used in this repository are taken from the [repository](https://github.com/lucasld/neural_network_analysis/tree/main/) for group 1 of the course.
 
